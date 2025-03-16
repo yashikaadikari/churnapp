@@ -2,4 +2,3 @@ scikit-learn
 streamlit
 numpy
 pandas
-GradientBoostingClassifier
