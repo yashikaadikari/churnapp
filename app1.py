@@ -33,6 +33,7 @@ def main():
     PAYER_TYPE_OUTSTANDING_PAYMASTERS = st.selectbox("PAYER TYPE OUTSTANDING PAYMASTERS", options=["Yes", "No"])
     SEG_CODE_SMB = st.selectbox("SEG CODE SMB", options=["Yes", "No"])
     CREDIT_TYPE_SME = st.selectbox("CREDIT TYPE SME", options=["Yes", "No"])
+    CREDIT_TYPE_SMB = st.selectbox("CREDIT TYPE SMB", options=["Yes", "No"])
     CREDIT_TYPE_LTEE = st.selectbox("CREDIT TYPE LTEE", options=["Yes", "No"])
     CPE_MODEL_ZLT_S10 = st.selectbox("CPE MODEL ZLT S10", options=["Yes", "No"])
     CPE_MODEL_B310S_925 = st.selectbox("CPE MODEL B310s-925", options=["Yes", "No"])
@@ -53,6 +54,7 @@ def main():
         "PAYER_TYPE_OUTSTANDING_PAYMASTERS": binary_map[PAYER_TYPE_OUTSTANDING_PAYMASTERS],
         "SEG_CODE_SMB": binary_map[SEG_CODE_SMB],
         "CREDIT_TYPE_SME": binary_map[CREDIT_TYPE_SME],
+        "CREDIT_TYPE_SMB": binary_map[CREDIT_TYPE_SMB],
         "CREDIT_TYPE_LTEE": binary_map[CREDIT_TYPE_LTEE],
         "CPE_MODEL_ZLT_S10": binary_map[CPE_MODEL_ZLT_S10],
         "CPE_MODEL_B310s-925": binary_map[CPE_MODEL_B310S_925],
