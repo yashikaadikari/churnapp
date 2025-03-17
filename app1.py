@@ -9,7 +9,6 @@ best_gb_model = pickle.load(pickle_in)
 
 def predict_status(features):
     """Function to predict Connection Status using the Gradient Boosting model"""
-    features = np.array(features).reshape(1, -1)
     prediction = best_gb_model.predict([features])
     return prediction[0]
 
